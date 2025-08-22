@@ -8,7 +8,7 @@ import "./globals.css";
 // import Footer from "./components/footer";
 import Header from "./(auth)/login/page";
 import Footer from "./(auth)/logout/page";
-
+import "../../public/sass/base/reset.scss";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
