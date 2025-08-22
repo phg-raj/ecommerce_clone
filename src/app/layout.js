@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import "../../public/sass/base/reset.scss";
 import "../../public/sass/base/reset.scss";
 import "../../public/sass/base/helper.scss";
@@ -5,7 +6,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import Header from "./components/header";
 // import Footer from "./components/footer";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./(auth)/login/page";
 import Footer from "./(auth)/logout/page";
 
