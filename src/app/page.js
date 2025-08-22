@@ -13,7 +13,9 @@ export default function Home() {
         {/* <Container>
           <Row>
             <Col> */}
-        <SwiperSlider />
+        {/* <SwiperSlider /> */}
+        <Homepage/>
+        
         {/* </Col>
           </Row>
         </Container> */}

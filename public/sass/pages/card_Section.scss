@@ -1,0 +1,27 @@
+.product_section {
+    margin-bottom: 80px;
+
+    .card_area {
+        a {
+            .card_area_img {
+                height: 200px;
+                margin-bottom: 15px;
+            }
+
+            p.product_type {
+                font-family: "Mier Book";
+                text-align: center;
+                color: rgb(53, 53, 67);
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+            }
+            &:hover{
+                // transform: scaley(1.02);
+                transform: translatey(-20px);
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
