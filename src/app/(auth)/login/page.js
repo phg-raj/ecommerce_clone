@@ -24,47 +24,7 @@ const Header = () => {
   return (
 
     <section className="header">
-      {/* 
-      <Container>
-        <Row>
-          <Col xs={12}>
-            <div className="inner_div_header">
-
-              <div className="left_area">
-                <div className="bar_logo">
-                  <FontAwesomeIcon icon={["fas", "bars"]} className="bar_icon" />
-                  <div className="logo_text">meesho</div>
-                </div>
-
-
-                <div className="search_bar">
-                  <FontAwesomeIcon icon={["fas", "search"]} className="search_icon" />
-                  <input
-                    type="text"
-                    placeholder="Try Saree, Kurti or Search by"
-                  />
-                </div>
-              </div>
-              <div className="right_area">
-                <div className="utility_links">
-                  <div className="vertical-divider"></div>
-
-                  <Link href="#" className="icon">
-                    <FontAwesomeIcon icon={["fas", "user"]} className="profile" />
-                    Profile
-                  </Link>
-                  <Link href="#" className="icon">
-                    <FontAwesomeIcon icon={["fas", "cart-plus"]} className="cart" />
-                    cart
-                  </Link>
-                </div>
-              </div>
-
-            </div>
-          </Col>
-        </Row>
-      </Container> */}
-
+      
 
 
       <Container>
