@@ -37,7 +37,7 @@ const CardProduct = () => {
                                 </p>
                             </Link>
                         </div>
-                    </Col>
+                    </Col>   
                     <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
                         <div className="card_area">
 

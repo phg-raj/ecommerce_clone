@@ -23,24 +23,29 @@ function SwiperSlider() {
     return (
 
         <section className="swiper_section">
-            <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
-                // modules={[Autoplay]}
-                spaceBetween={30}
-                slidesPerView={1}
-                navigation
-                className="swiper_hello"
-                pagination={{ clickable: true }}
-                autoplay={{ delay: 3000 }}
-                loop
-            >
-                <SwiperSlide>
-                    <div className="img_Position">
-                        <Link href="#" className="imgLink">
-                            <Image src={slide1} alt=".." title=".." fetchPriority="low" />
-                        </Link>
-                    </div>
-                    {/* <div className="slide">
+            <Container fluid>
+                <Row>
+                    <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={12}>
+
+                        <Swiper
+                            modules={[Navigation, Pagination, Autoplay]}
+                            // modules={[Autoplay]}
+                            spaceBetween={30}
+                            slidesPerView={1}
+                            navigation
+                            className="swiper_hello"
+                            pagination={{ clickable: true }}
+                            // pagination= {{clickable: true, type: "progressbar"}}
+                            // autoplay={{ delay: 3000 }}
+                            loop
+                        >
+                            <SwiperSlide>
+                                <div className="img_Position">
+                                    <Link href="#" className="imgLink">
+                                        <Image src={slide1} alt=".." title=".." fetchPriority="low" />
+                                    </Link>
+                                </div>
+                                {/* <div className="slide">
                         <Container >
                             <Row>
                                 <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={12}>
@@ -61,12 +66,12 @@ function SwiperSlider() {
                             </Row>
                         </Container>
                     </div> */}
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Link href="#" className="imgLink">
-                        <Image src={slide2} alt=".." title=".." fetchPriority="low" />
-                    </Link>
-                    {/* <div className="slide">
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Link href="#" className="imgLink">
+                                    <Image src={slide2} alt=".." title=".." fetchPriority="low" />
+                                </Link>
+                                {/* <div className="slide">
                         <Container >
                             <Row>
                                 <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={12}>
@@ -87,18 +92,21 @@ function SwiperSlider() {
                             </Row>
                         </Container>
                     </div> */}
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Link href="#" className="imgLink">
-                        <Image src={slide3} alt=".." title=".." fetchPriority="low" />
-                    </Link>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Link href="#" className="imgLink">
-                        <Image src={slide4} alt=".." title=".." fetchPriority="low" />
-                    </Link>
-                </SwiperSlide>
-            </Swiper>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Link href="#" className="imgLink">
+                                    <Image src={slide3} alt=".." title=".." fetchPriority="low" />
+                                </Link>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Link href="#" className="imgLink">
+                                    <Image src={slide4} alt=".." title=".." fetchPriority="low" />
+                                </Link>
+                            </SwiperSlide>
+                        </Swiper>
+                    </Col>
+                </Row>
+            </Container>
             <div className="three_div">
                 <div className="inner_three">
                     <ul type="none">
