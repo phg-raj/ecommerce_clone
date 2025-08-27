@@ -9,17 +9,7 @@ import SwiperSlider from "./componets/banner_Swiper";
 export default function Home() {
   return (
     <>
-      <section>
-        {/* <Container>
-          <Row>
-            <Col> */}
-        {/* <SwiperSlider /> */}
         <Homepage/>
-        
-        {/* </Col>
-          </Row>
-        </Container> */}
-      </section>
     </>
   );
 }

@@ -1,9 +1,13 @@
-import React from 'react'
+"use client"
+import React, { use } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // import Image from 'react-bootstrap';
-import webLogo from "../../../../public/Images/meeshoLogo.svg";
+
+// import webLogo from "../../../../public/Images/meeshoLogo.svg";
 import Image from "next/image";
 import Link from 'next/link';
+
+
 import "../../../../public/sass/pages/Header.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -32,11 +36,8 @@ const Header = () => {
           <Col xxl={12} xl={12} lg={12} md={12} xm={12} xs={12}>
             <div className="inner_div_header">
 
-              
-
+        
               <div className="logo_text">meesho</div>
-
-
 
               <div className="search_bar">
                 <span className="search_icon">&#128269;</span>
@@ -45,9 +46,7 @@ const Header = () => {
                   placeholder="Try Saree, Kurti or Search by"
                 />
               </div>
-
-
-
+              
 
               <div className="utility_links">
                 <div className="links_wrapper">
@@ -136,8 +135,3 @@ const Header = () => {
 
   )
 }
-
-export default Header
-
-
-
